@@ -1,0 +1,30 @@
+package com.example.hotel_booking.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.hotel_booking.model.Hotel;
+import com.example.hotel_booking.service.HotelService;
+
+@RestController
+@RequestMapping("/hotels")
+public class HotelController {
+    @Autowired
+    private HotelService hotelService;
+
+    @PostMapping
+    public Hotel addHotel(@RequestBody Hotel hotel) {
+        return hotelService.saveHotel(hotel);
+    }
+
+    @GetMapping
+    public List<Hotel> getAllHotels() {
+        return hotelService.getAllHotels();
+    }
+}
