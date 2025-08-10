@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+       <bean id="Flight" class="com.booking.FlightService"></bean>
+       
+       <bean id="Ticket" class="com.bookin.TicketService">
+       <property name="flightservice" ref="Flight"></property>
+       </bean>
+       
+</beans>

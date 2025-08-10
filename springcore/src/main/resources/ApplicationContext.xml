@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <bean id="customer" class="com.SpringCore.Customer">
+    <!-- Define a bean named "customer" of class "com.model.Customer" -->
+        <!-- Set the property "sno" with the value "1234567890" -->
+        <!-- Set the property "name" with the value "Isha" -->
+        
+        <property name="sno" value="12"></property>
+        <property name="name" value="bhargav"></property>
+        <property name="email" value="bhargav@gmail.com"></property>
+         			<constructor-arg ref="address"></constructor-arg>
+        
+    </bean>
+ 
+ 	    <bean id="address" class="com.SpringCore.Address">
+ 	   		 <property name="doorno" value="16"></property>
+ 	   		 <property name="streetAddr" value="Oc Area"></property>
+ 	   		 <property name="cityName" value="Tadepalligudem"></property>
+ 	   		 <property name="pincode" value="534411"></property>
+ 	   		 
+ 		</bean>
+</beans>
+ 
