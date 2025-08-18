@@ -1,0 +1,46 @@
+package com.example.course_service.service;
+
+package com.example.courseservice.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.course_service.model.Course;
+import com.example.course_service.repository.CourseRepository;
+
+@Service
+public class CourseService {
+	@Autowired
+    private CourseRepository repository;
+
+    public CourseService(CourseRepository repository) {
+        this.repository = repository;
+    }
+
+    public List<Course> getAllCourses() {
+        return repository.findAll();
+    }
+
+    public Course getCourseById(Long id) {
+        return repository.findById(id).orElseThrow(() -> new RuntimeException("Course not found"));
+    }
+
+    public Course createCourse(Course course) {
+        return repository.save(course);
+    }
+
+    public Course updateCourse(Long id, com.example.course_service.model.Course updated) {
+        Course existing = getCourseById(id);
+        existing.setTitle(updated.getTitle());
+        existing.setCategory(updated.getCategory());
+        
+        return repository.save(existing);
+    }
+
+    public void deleteCourse(Long id) {
+        repository.deleteById(id);
+    }
+}
+

@@ -1,0 +1,50 @@
+package com.example.user_service.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.example.user_service.model.User;
+import com.example.user_service.repository.UserRepository;
+
+@Service
+public class UserService {
+	
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+	@Autowired
+	private UserRepository userRepository;
+	
+	public List<User> getUser()
+	{
+		return userRepository.findAll();
+	}
+	
+	public User addUser(User user)
+	{
+		return userRepository.save(user);
+	}
+	
+	public User updateUser(Long id,User user)
+	{
+		User use=userRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found by id "+id));
+		use.setName(user.getName());
+		use.setEmail(user.getEmail());
+		use.setPassword(passwordEncoder.encode(user.getPassword()));
+		use.setRole(user.getRole());
+		
+		return userRepository.save(use);
+	}
+	public void deleteUser(Long id)
+	{
+		userRepository.deleteById(id);
+	}
+
+	public Optional<User> findByUsername(String name) {
+		// TODO Auto-generated method stub
+		return Optional.ofNullable(userRepository.findByName(name).orElse(null));
+	}
+}

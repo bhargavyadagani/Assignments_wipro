@@ -1,0 +1,65 @@
+package com.example.appointment_service.service;
+
+import java.time.LocalDateTime;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.example.appointment_service.model.Appointment;
+import com.example.appointment_service.repository.AppointmentRepository;
+
+@Service
+public class AppointmentService {
+
+    @Autowired
+    private AppointmentRepository repository;
+
+    @Autowired
+    private KafkaTemplate<String, String> kafkaTemplate;
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    private final String DOCTOR_SERVICE_URL = "http://localhost:8081/doctors";
+
+    public Appointment bookAppointment(Long patientId, Long doctorId, LocalDateTime time) throws Exception {
+        // Step 1: Block doctor slot
+        boolean blocked = restTemplate.postForObject(DOCTOR_SERVICE_URL + "/" + doctorId + "/block", null, Boolean.class);
+
+        if (!blocked) {
+            throw new Exception("Doctor slot unavailable");
+        }
+
+        // Step 2: Save appointment
+        Appointment appointment = new Appointment();
+        appointment.setPatientId(patientId);
+        appointment.setDoctorId(doctorId);
+        appointment.setAppointmentTime(time);
+        appointment.setStatus("CONFIRMED");
+
+        Appointment saved = repository.save(appointment);
+
+        // Step 3: Publish event for Notification Service
+        kafkaTemplate.send("appointment.confirmed", "Appointment " + saved.getId() + " confirmed");
+
+        return saved;
+    }
+
+    public void cancelAppointment(Long appointmentId) {
+        Optional<Appointment> appOpt = repository.findById(appointmentId);
+        if (appOpt.isPresent()) {
+            Appointment app = appOpt.get();
+            app.setStatus("CANCELLED");
+            repository.save(app);
+
+            // Release doctor slot
+            restTemplate.postForObject(DOCTOR_SERVICE_URL + "/" + app.getDoctorId() + "/release", null, Void.class);
+        }
+    }
+
+    public Optional<Appointment> getAppointment(Long id) {
+        return repository.findById(id);
+    }
+}

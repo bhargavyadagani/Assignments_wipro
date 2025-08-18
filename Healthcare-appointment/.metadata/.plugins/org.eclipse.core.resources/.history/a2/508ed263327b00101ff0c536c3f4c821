@@ -1,0 +1,32 @@
+package com.example.medical_record_service.service;
+
+@Service
+public class MedicalRecordService {
+
+    @Autowired
+    private MedicalRecordRepository repository;
+
+    public MedicalRecord createRecord(MedicalRecord record) {
+        return repository.save(record);
+    }
+
+    public Optional<MedicalRecord> getRecord(Long id) {
+        return repository.findById(id);
+    }
+
+    public List<MedicalRecord> getRecordsByPatient(Long patientId) {
+        return repository.findByPatientId(patientId);
+    }
+
+    public MedicalRecord updateRecord(Long id, MedicalRecord updated) throws Exception {
+        MedicalRecord record = repository.findById(id).orElseThrow(() -> new Exception("Record not found"));
+        record.setDiagnosis(updated.getDiagnosis());
+        record.setPrescription(updated.getPrescription());
+        record.setLabResults(updated.getLabResults());
+        return repository.save(record);
+    }
+
+    public void deleteRecord(Long id) {
+        repository.deleteById(id);
+    }
+}

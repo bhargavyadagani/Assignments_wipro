@@ -1,0 +1,17 @@
+package com.example.notfication_service.model;
+
+@Entity
+@Table(name = "notifications")
+@Data
+public class Notification {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private Long userId;          
+    private String title;         
+    private String message;       
+    private Boolean readStatus;   
+    private LocalDateTime createdAt;
+}

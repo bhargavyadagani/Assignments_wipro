@@ -1,0 +1,7 @@
+package com.example.billing_service.feign;
+
+@FeignClient(name = "patient-service", url = "http://localhost:8081")
+public interface PatientClient {
+    @GetMapping("/patients/{id}")
+    PatientDTO getPatientById(@PathVariable("id") Long id);
+}

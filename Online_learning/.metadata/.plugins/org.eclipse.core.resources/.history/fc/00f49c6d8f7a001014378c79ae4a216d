@@ -1,0 +1,52 @@
+package com.example.classroom_service.service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.classroom_service.feign.UserClient;
+import com.example.classroom_service.model.Attendance;
+import com.example.classroom_service.model.Classroom;
+import com.example.classroom_service.repository.AttendenceRepository;
+import com.example.classroom_service.repository.ClassroomRepository;
+
+
+
+@Service
+public class ClassroomService {
+
+    @Autowired
+    private ClassroomRepository classroomRepository;
+    
+    @Autowired
+    private AttendenceRepository attendanceRepository;
+    
+    @Autowired
+    private UserClient userClient;
+    
+    @Autowired
+    private CourseClient CourseClient;
+
+    public Classroom createClassroom(Classroom classroom) {
+    	classroom.setStartTime(LocalDateTime.now());
+        return classroomRepository.save(classroom);
+    }
+
+    public Classroom getClassroomById(Long id) {
+        return classroomRepository.findById(id).orElse(null);
+    }
+
+    public Attendance markAttendance(Long classId, Long studentId, boolean present) {
+        Attendance attendance = new Attendance();
+        attendance.setClassroomId(classId);
+        attendance.setStudentId(studentId);
+        attendance.setPresent(present);
+        return attendanceRepository.save(attendance);
+    }
+
+    public List<Attendance> getAttendanceForClass(Long classId) {
+        return attendanceRepository.findByClassroomId(classId);
+    }
+}

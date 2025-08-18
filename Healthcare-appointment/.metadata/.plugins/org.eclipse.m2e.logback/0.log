@@ -1,0 +1,604 @@
+2025-08-17 10:47:03,499 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-08-17 10:47:26,713 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/eureka-server/pom.xml.
+2025-08-17 10:47:27,039 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/eureka-server/pom.xml.
+2025-08-17 10:47:27,874 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:47:27,887 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:47:27,890 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/eureka-server/src/test/resources
+2025-08-17 10:47:28,250 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:47:28,251 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:47:28,254 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/eureka-server/src/test/resources
+2025-08-17 10:47:29,063 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/eureka-server/pom.xml.
+2025-08-17 10:47:49,136 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/api-gateway/pom.xml.
+2025-08-17 10:47:49,475 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:47:49,483 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:47:49,485 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/api-gateway/src/test/resources
+2025-08-17 10:47:49,742 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:47:49,743 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:47:49,744 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/api-gateway/src/test/resources
+2025-08-17 10:47:49,745 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of api-gateway
+2025-08-17 10:47:49,745 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for api-gateway
+2025-08-17 10:47:49,917 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/api-gateway/pom.xml.
+2025-08-17 10:48:11,213 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-17 10:48:11,331 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:patient-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/pom.xml.
+2025-08-17 10:48:11,617 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /patient-service/src/main/java
+2025-08-17 10:48:11,618 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /patient-service/src/main/resources
+2025-08-17 10:48:11,620 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /patient-service/src/main/resources
+2025-08-17 10:48:11,622 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /patient-service/src/test/java
+2025-08-17 10:48:11,622 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /patient-service/src/test/resources
+2025-08-17 10:48:12,031 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:48:12,039 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:48:12,041 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:48:12,244 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-17 10:48:12,392 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:48:12,392 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:48:12,393 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:48:43,917 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:48:43,921 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:48:43,922 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:49:18,187 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:49:18,189 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:49:18,190 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:49:39,837 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:49:39,839 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:49:39,840 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:50:02,783 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:50:02,785 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:50:02,787 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:50:45,944 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-17 10:50:46,094 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:doctor-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/pom.xml.
+2025-08-17 10:50:46,349 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-service/src/main/java
+2025-08-17 10:50:46,349 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-service/src/main/resources
+2025-08-17 10:50:46,351 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-service/src/main/resources
+2025-08-17 10:50:46,353 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /doctor-service/src/test/java
+2025-08-17 10:50:46,353 [Worker-9: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /doctor-service/src/test/resources
+2025-08-17 10:50:46,882 [Worker-9: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-17 10:50:47,141 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:50:47,148 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:50:47,150 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:51:20,167 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:patient-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/pom.xml.
+2025-08-17 10:51:20,432 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:51:20,433 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:51:20,434 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:51:20,434 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of patient-service
+2025-08-17 10:51:20,434 [Worker-3: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for patient-service
+2025-08-17 10:51:21,581 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:51:21,589 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:51:21,590 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:52:18,884 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:52:18,885 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:52:18,887 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:53:05,109 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:53:05,111 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:53:05,112 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:53:44,940 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:53:44,942 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:53:44,942 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 10:54:10,150 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:54:10,153 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:54:10,155 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:54:34,626 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:54:34,628 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:54:34,630 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:55:15,011 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:55:15,013 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:55:15,015 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:55:31,095 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:55:31,096 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:55:31,097 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:56:51,953 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:56:51,955 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:56:51,955 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:57:03,854 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:57:03,855 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:57:03,856 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 10:58:26,041 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-17 10:58:26,254 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:appointment-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/pom.xml.
+2025-08-17 10:58:26,576 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /appointment-service/src/main/java
+2025-08-17 10:58:26,576 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /appointment-service/src/main/resources
+2025-08-17 10:58:26,579 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /appointment-service/src/main/resources
+2025-08-17 10:58:26,581 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /appointment-service/src/test/java
+2025-08-17 10:58:26,582 [Worker-16: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /appointment-service/src/test/resources
+2025-08-17 10:58:27,012 [Worker-16: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-17 10:58:27,244 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:58:27,263 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:58:27,265 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 10:58:50,477 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:58:50,479 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:58:50,480 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 10:59:11,590 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 10:59:11,593 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 10:59:11,594 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 11:00:16,577 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:00:16,579 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:00:16,580 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 11:00:48,191 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:00:48,192 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:00:48,193 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 11:01:07,646 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:01:07,647 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:01:07,648 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 11:01:37,026 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:01:37,028 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:01:37,029 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 11:02:14,222 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-17 11:02:14,332 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:medical-record-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/pom.xml.
+2025-08-17 11:02:14,577 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /medical-record-service/src/main/java
+2025-08-17 11:02:14,577 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /medical-record-service/src/main/resources
+2025-08-17 11:02:14,579 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /medical-record-service/src/main/resources
+2025-08-17 11:02:14,581 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /medical-record-service/src/test/java
+2025-08-17 11:02:14,581 [Worker-6: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /medical-record-service/src/test/resources
+2025-08-17 11:02:14,949 [Worker-6: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-17 11:02:15,138 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:02:15,147 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:02:15,149 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:03:03,577 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:03:03,581 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:03:03,583 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:03:52,913 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:03:52,914 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:03:52,915 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:04:23,419 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:04:23,420 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:04:23,423 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:05:17,736 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:05:17,737 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:05:17,738 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:05:38,231 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:05:38,233 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:05:38,233 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:06:09,812 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:06:09,813 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:06:09,814 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:06:26,841 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:06:26,843 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:06:26,844 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:20:54,835 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-17 11:20:54,961 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:billing-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/pom.xml.
+2025-08-17 11:20:55,215 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /billing-service/src/main/java
+2025-08-17 11:20:55,215 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /billing-service/src/main/resources
+2025-08-17 11:20:55,217 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /billing-service/src/main/resources
+2025-08-17 11:20:55,220 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /billing-service/src/test/java
+2025-08-17 11:20:55,221 [Worker-26: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /billing-service/src/test/resources
+2025-08-17 11:20:55,829 [Worker-26: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-17 11:20:56,148 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:20:56,156 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:20:56,158 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 11:21:33,285 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:21:33,290 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:21:33,292 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 11:21:57,520 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:21:57,524 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:21:57,525 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 11:22:21,158 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:22:21,161 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:22:21,163 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 11:23:13,882 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:23:13,883 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:23:13,884 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 11:25:15,154 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:25:15,159 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:25:15,160 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 11:41:21,635 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:41:21,641 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:41:21,643 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 11:49:17,323 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:49:17,330 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:49:17,332 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:49:18,391 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:49:18,397 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:49:18,398 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:51:20,361 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:51:20,362 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:51:20,363 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:51:37,181 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:51:37,182 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:51:37,183 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 11:52:54,803 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:52:54,809 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:52:54,811 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 11:53:33,807 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:53:33,814 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:53:33,815 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 11:54:00,083 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:54:00,085 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:54:00,086 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 11:55:05,281 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 11:55:05,284 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 11:55:05,284 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 12:31:19,044 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:appointment-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/pom.xml.
+2025-08-17 12:31:19,383 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:19,383 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:19,385 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 12:31:19,385 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of appointment-service
+2025-08-17 12:31:19,385 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for appointment-service
+2025-08-17 12:31:19,691 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:31:19,699 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:19,700 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 12:31:30,175 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:appointment-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/pom.xml.
+2025-08-17 12:31:30,353 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:30,353 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:30,354 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 12:31:30,355 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of appointment-service
+2025-08-17 12:31:30,355 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for appointment-service
+2025-08-17 12:31:56,608 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:billing-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/pom.xml.
+2025-08-17 12:31:56,778 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:56,779 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:56,780 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 12:31:56,780 [Worker-45: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of billing-service
+2025-08-17 12:31:56,780 [Worker-45: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for billing-service
+2025-08-17 12:31:57,962 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:31:57,969 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:31:57,971 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 12:37:53,400 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:37:53,412 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:37:53,414 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 12:38:53,319 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:38:53,327 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:38:53,329 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 12:40:27,301 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:40:27,317 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:40:27,319 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/patient-service/src/test/resources
+2025-08-17 12:40:57,034 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:40:57,046 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:40:57,048 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 12:41:58,502 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:41:58,518 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:41:58,520 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 12:42:03,219 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:42:03,226 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:42:03,227 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 12:42:06,916 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:42:06,923 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:42:06,925 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 12:43:15,127 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 12:43:15,133 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 12:43:15,134 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:00:32,863 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:00:32,874 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:00:32,875 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:03:30,625 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:03:30,630 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:03:30,631 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:06:23,942 [Worker-53: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:appointment-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/pom.xml.
+2025-08-17 14:06:24,370 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:06:24,370 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:06:24,372 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:06:24,372 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of appointment-service
+2025-08-17 14:06:24,372 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for appointment-service
+2025-08-17 14:06:24,681 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:06:24,689 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:06:24,743 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:06:46,912 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:06:46,915 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:06:46,916 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:07:47,374 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:07:47,383 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:07:47,384 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:07:59,039 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:07:59,045 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:07:59,047 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:09:13,135 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:09:13,143 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:09:13,144 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:11:18,006 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:11:18,009 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:11:18,010 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:14:01,388 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:14:01,393 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:14:01,395 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:15:07,473 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:15:07,477 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:15:07,478 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 14:20:19,451 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:20:19,458 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:20:19,459 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:21:28,343 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:21:28,347 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:21:28,349 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:22:19,471 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:22:19,499 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:22:19,501 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:22:55,149 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:22:55,153 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:22:55,160 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:23:59,676 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:23:59,682 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:23:59,683 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:24:51,237 [Worker-53: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:billing-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/pom.xml.
+2025-08-17 14:24:51,534 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:24:51,534 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:24:51,536 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:24:51,536 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of billing-service
+2025-08-17 14:24:51,537 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for billing-service
+2025-08-17 14:24:52,653 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:24:52,661 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:24:52,662 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:24:55,579 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:24:55,583 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:24:55,584 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:25:21,967 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:25:21,969 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:25:21,970 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:27:03,774 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:27:03,784 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:27:03,786 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:28:53,799 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:28:53,807 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:28:53,811 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:33:07,943 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:33:07,954 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:33:07,956 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:33:19,068 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:33:19,078 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:33:19,079 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:33:21,125 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:33:21,128 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:33:21,129 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:34:02,873 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:34:02,878 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:34:02,879 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:35:10,809 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:35:10,816 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:35:10,817 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 14:39:33,125 [Worker-79: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:medical-record-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/pom.xml.
+2025-08-17 14:39:33,566 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:39:33,566 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:39:33,568 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:39:33,568 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of medical-record-service
+2025-08-17 14:39:33,568 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for medical-record-service
+2025-08-17 14:39:34,683 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:39:34,690 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:39:34,691 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:40:12,498 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:40:12,505 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:40:12,506 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:40:36,065 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:40:36,077 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:40:36,078 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:41:14,649 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:41:14,654 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:41:14,656 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:41:33,162 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:41:33,173 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:41:33,174 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:44:34,047 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:44:34,055 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:44:34,056 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:45:00,681 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:45:00,700 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:45:00,701 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:45:37,284 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:45:37,297 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:45:37,299 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:45:41,271 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:45:41,283 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:45:41,285 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:46:07,661 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:46:07,696 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:46:07,698 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:46:39,969 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:46:39,973 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:46:39,974 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:49:35,037 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:49:35,049 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:49:35,051 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:57:06,531 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:57:06,540 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:57:06,541 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 14:57:19,729 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 14:57:19,735 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 14:57:19,736 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 15:03:57,100 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:03:57,110 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:03:57,112 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/api-gateway/src/test/resources
+2025-08-17 15:04:29,129 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:04:29,132 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:04:29,133 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/api-gateway/src/test/resources
+2025-08-17 15:20:29,160 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:20:29,186 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:20:29,188 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 15:43:13,387 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:43:13,412 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:43:13,417 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 15:54:08,778 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:54:08,790 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:54:08,792 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 15:55:16,229 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:55:16,236 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:55:16,239 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 15:57:32,625 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 15:57:32,640 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 15:57:32,641 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:03:38,695 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:03:38,707 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:03:38,709 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:03:56,675 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:03:56,683 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:03:56,685 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:06:12,856 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:06:12,868 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:06:12,869 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:06:15,733 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:06:15,745 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:06:15,746 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:07:43,715 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:07:43,723 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:07:43,725 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:21:30,477 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:21:30,522 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:21:30,524 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:21:33,577 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:21:33,589 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:21:33,591 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:21:51,041 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:21:51,068 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:21:51,070 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:23:03,501 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:23:03,514 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:23:03,516 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:23:06,397 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:23:06,413 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:23:06,415 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/doctor-service/src/test/resources
+2025-08-17 16:23:50,301 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:23:50,311 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:23:50,312 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 16:24:07,615 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:24:07,633 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:24:07,635 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/appointment-service/src/test/resources
+2025-08-17 16:41:55,960 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:41:55,988 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:41:55,990 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 16:42:13,520 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:42:13,527 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:42:13,529 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 16:48:52,413 [Worker-141: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:billing-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/pom.xml.
+2025-08-17 16:48:53,002 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:48:53,002 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:48:53,004 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:48:53,004 [Worker-141: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of billing-service
+2025-08-17 16:48:53,004 [Worker-141: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for billing-service
+2025-08-17 16:48:54,097 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:48:54,106 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:48:54,108 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:49:49,020 [Worker-148: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:billing-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/pom.xml.
+2025-08-17 16:49:49,410 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:49:49,411 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:49:49,412 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:49:49,412 [Worker-148: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of billing-service
+2025-08-17 16:49:49,412 [Worker-148: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for billing-service
+2025-08-17 16:49:50,579 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:49:50,590 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:49:50,591 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:50:08,686 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:50:08,700 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:50:08,703 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:50:31,106 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:50:31,142 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:50:31,143 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:51:42,271 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:51:42,283 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:51:42,284 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:52:11,634 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:52:11,644 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:52:11,651 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:52:19,026 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:52:19,040 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:52:19,041 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:52:39,849 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:52:39,856 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:52:39,857 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:53:25,612 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:53:25,622 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:53:25,624 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:54:54,143 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:54:54,153 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:54:54,155 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 16:55:49,716 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 16:55:49,731 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 16:55:49,732 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:00:16,598 [Worker-154: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:billing-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/pom.xml.
+2025-08-17 17:00:16,989 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:00:16,990 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:00:16,991 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:00:16,991 [Worker-154: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of billing-service
+2025-08-17 17:00:16,991 [Worker-154: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for billing-service
+2025-08-17 17:00:18,151 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:00:18,161 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:00:18,162 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:00:42,237 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.4+7-LTS
+2025-08-17 17:00:42,267 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@2dc63733{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@c77516c{STARTED}}
+2025-08-17 17:00:42,267 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-08-17 17:00:42,279 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@36dfb0f5{HTTP/1.1, (http/1.1)}{127.0.0.1:50833}
+2025-08-17 17:00:42,286 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2305fd8{STARTING}[12.0.12,sto=0] @16807239ms
+2025-08-17 17:01:48,353 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:01:48,362 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:01:48,363 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:03:12,181 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:03:12,191 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:03:12,192 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:07:06,015 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:07:06,033 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:07:06,039 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:32:29,363 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:32:29,387 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:32:29,389 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:38:03,354 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:38:03,370 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:38:03,373 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:38:34,456 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:38:34,467 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:38:34,469 [Worker-163: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:43:41,796 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:43:41,843 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:43:41,844 [Worker-166: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:44:00,861 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:44:00,882 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:44:00,886 [Worker-165: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:46:00,931 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:46:00,935 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:46:00,936 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:47:33,212 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:47:33,235 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:47:33,236 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:48:05,308 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:48:05,326 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:48:05,327 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:52:48,418 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:52:48,433 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:52:48,436 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 17:55:46,731 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:55:46,742 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:55:46,744 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 17:58:31,487 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 17:58:31,499 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 17:58:31,500 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:00:35,955 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:00:35,966 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:00:35,967 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:03:58,501 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:03:58,522 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:03:58,525 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:23:20,754 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:23:20,768 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:23:20,769 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:23:26,105 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:23:26,117 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:23:26,119 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:23:35,817 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:23:35,828 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:23:35,830 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:25:25,861 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:25:25,876 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:25:25,877 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:25:30,181 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:25:30,192 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:25:30,193 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:25:34,055 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:25:34,079 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:25:34,082 [Worker-176: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:34:21,468 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:34:21,508 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:34:21,510 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:34:32,781 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:34:32,793 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:34:32,795 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:35:33,878 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:35:33,913 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:35:33,915 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/medical-record-service/src/test/resources
+2025-08-17 18:39:41,738 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:39:41,748 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:39:41,749 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:39:59,655 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:39:59,671 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:39:59,673 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:40:28,041 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:40:28,056 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:40:28,059 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:40:42,483 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:40:42,496 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:40:42,497 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 18:43:02,912 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 18:43:02,940 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 18:43:02,942 [Worker-177: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Healthcare-appointment/billing-service/src/test/resources
+2025-08-17 19:26:50,273 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@2305fd8{STOPPING}[12.0.12,sto=0]
+2025-08-17 19:26:50,287 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@36dfb0f5{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

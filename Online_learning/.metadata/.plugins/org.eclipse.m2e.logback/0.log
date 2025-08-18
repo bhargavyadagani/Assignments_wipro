@@ -1,0 +1,984 @@
+2025-08-14 12:42:33,033 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-08-14 12:43:14,864 [Worker-5: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/eureka-server/pom.xml.
+2025-08-14 12:43:14,881 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/eureka-server/pom.xml.
+2025-08-14 12:43:15,928 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:43:15,942 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:43:15,944 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/eureka-server/src/test/resources
+2025-08-14 12:43:17,731 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:eureka-server:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/eureka-server/pom.xml.
+2025-08-14 12:43:17,758 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:43:17,771 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:43:17,773 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/eureka-server/src/test/resources
+2025-08-14 12:44:43,005 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/pom.xml.
+2025-08-14 12:44:43,474 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:44:43,500 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 12:44:43,707 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/pom.xml.
+2025-08-14 12:44:43,907 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:44:43,915 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:44:43,916 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 12:44:43,920 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of api-gateway
+2025-08-14 12:44:43,920 [Worker-1: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for api-gateway
+2025-08-14 12:44:44,174 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:44:44,175 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:44:44,176 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 12:45:45,878 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-14 12:45:46,047 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:api-gateway:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/pom.xml.
+2025-08-14 12:45:46,432 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2025-08-14 12:45:46,433 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-14 12:45:46,433 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2025-08-14 12:45:46,433 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2025-08-14 12:45:46,433 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2025-08-14 12:45:46,845 [Worker-0: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for api-gateway
+2025-08-14 12:45:46,855 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-14 12:45:47,084 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:45:47,094 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:45:47,096 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 12:45:47,096 [Worker-16: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of api-gateway
+2025-08-14 12:45:47,096 [Worker-16: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for api-gateway
+2025-08-14 12:46:30,133 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:46:30,143 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:46:30,144 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 12:48:28,650 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-14 12:48:28,807 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:user_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/pom.xml.
+2025-08-14 12:48:29,105 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user_service/src/main/java
+2025-08-14 12:48:29,105 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user_service/src/main/resources
+2025-08-14 12:48:29,107 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user_service/src/main/resources
+2025-08-14 12:48:29,110 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user_service/src/test/java
+2025-08-14 12:48:29,111 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user_service/src/test/resources
+2025-08-14 12:48:29,948 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-14 12:48:30,123 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:48:30,131 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:48:30,132 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 12:53:45,239 [Worker-27: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-14 12:53:45,434 [Worker-27: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:course_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/pom.xml.
+2025-08-14 12:53:45,732 [Worker-27: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course_service/src/main/java
+2025-08-14 12:53:45,732 [Worker-27: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course_service/src/main/resources
+2025-08-14 12:53:45,734 [Worker-27: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course_service/src/main/resources
+2025-08-14 12:53:45,737 [Worker-27: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course_service/src/test/java
+2025-08-14 12:53:45,738 [Worker-27: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course_service/src/test/resources
+2025-08-14 12:53:46,247 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:53:46,255 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:53:46,256 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-14 12:53:46,390 [Worker-27: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-14 12:53:46,537 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:53:46,538 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:53:46,540 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-14 12:59:26,510 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 12:59:26,520 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 12:59:26,521 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:00:00,762 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:00:00,770 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:00:00,771 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:00:29,172 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:00:29,178 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:00:29,179 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:01:08,702 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:01:08,721 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:01:08,725 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:10:52,197 [Worker-41: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:user_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/pom.xml.
+2025-08-14 13:10:52,765 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.pom
+2025-08-14 13:10:52,768 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.pom
+2025-08-14 13:10:52,848 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar
+2025-08-14 13:10:54,673 [Worker-41: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar
+2025-08-14 13:10:54,918 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:10:54,918 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:10:54,923 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:10:54,923 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of user_service
+2025-08-14 13:10:54,923 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for user_service
+2025-08-14 13:10:55,216 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:10:55,225 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:10:55,226 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:10:56,896 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38-sources.jar
+2025-08-14 13:10:58,199 [Worker-38: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38-sources.jar
+2025-08-14 13:10:58,203 [Worker-38: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.38
+2025-08-14 13:11:38,120 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:11:38,133 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:11:38,135 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:13:27,990 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:13:28,000 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:13:28,001 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:14:32,688 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:14:32,698 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:14:32,699 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:14:38,707 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:14:38,711 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:14:38,712 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:15:11,582 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.4+7-LTS
+2025-08-14 13:15:11,612 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@31b12c15{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@3dc7ae9{STARTED}}
+2025-08-14 13:15:11,612 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-08-14 13:15:11,624 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@56042f80{HTTP/1.1, (http/1.1)}{127.0.0.1:62860}
+2025-08-14 13:15:11,630 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@b7f65a0{STARTING}[12.0.12,sto=0] @1964075ms
+2025-08-14 13:15:45,344 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:15:45,360 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:15:45,362 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:22:07,571 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:22:07,582 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:22:07,584 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:22:10,316 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:22:10,321 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:22:10,323 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 13:30:09,848 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 13:30:09,859 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 13:30:09,861 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:06:23,368 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:06:23,390 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:06:23,392 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:08:49,802 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:user_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/pom.xml.
+2025-08-14 15:08:50,132 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.4/spring-boot-starter-security-3.5.4.pom
+2025-08-14 15:08:50,134 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.4/spring-boot-starter-security-3.5.4.pom
+2025-08-14 15:08:50,172 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.2/spring-security-config-6.5.2.pom
+2025-08-14 15:08:50,173 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.2/spring-security-config-6.5.2.pom
+2025-08-14 15:08:50,199 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.2/spring-security-core-6.5.2.pom
+2025-08-14 15:08:50,200 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.2/spring-security-core-6.5.2.pom
+2025-08-14 15:08:50,226 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.2/spring-security-web-6.5.2.pom
+2025-08-14 15:08:50,227 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.2/spring-security-web-6.5.2.pom
+2025-08-14 15:08:50,268 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.4/spring-boot-starter-security-3.5.4.jar
+2025-08-14 15:08:50,273 [Worker-60: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.4/spring-boot-starter-security-3.5.4.jar
+2025-08-14 15:08:50,292 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.2/spring-security-config-6.5.2.jar
+2025-08-14 15:08:50,338 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.2/spring-security-web-6.5.2.jar
+2025-08-14 15:08:50,338 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.2/spring-security-core-6.5.2.jar
+2025-08-14 15:08:50,538 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.2/spring-security-core-6.5.2.jar
+2025-08-14 15:08:50,642 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.2/spring-security-config-6.5.2.jar
+2025-08-14 15:08:50,728 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.2/spring-security-web-6.5.2.jar
+2025-08-14 15:08:51,025 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:08:51,026 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:08:51,029 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:08:51,029 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of user_service
+2025-08-14 15:08:51,029 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for user_service
+2025-08-14 15:08:51,485 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:08:51,515 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:08:51,518 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:08:52,009 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.4/spring-boot-starter-security-3.5.4-sources.jar
+2025-08-14 15:08:52,011 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.5.4/spring-boot-starter-security-3.5.4-sources.jar
+2025-08-14 15:08:52,013 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:3.5.4
+2025-08-14 15:08:52,081 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.2/spring-security-config-6.5.2-sources.jar
+2025-08-14 15:08:52,249 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.5.2/spring-security-config-6.5.2-sources.jar
+2025-08-14 15:08:52,250 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:6.5.2
+2025-08-14 15:08:52,310 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.2/spring-security-core-6.5.2-sources.jar
+2025-08-14 15:08:52,393 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.5.2/spring-security-core-6.5.2-sources.jar
+2025-08-14 15:08:52,394 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:6.5.2
+2025-08-14 15:08:52,455 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.2/spring-security-web-6.5.2-sources.jar
+2025-08-14 15:08:52,570 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.5.2/spring-security-web-6.5.2-sources.jar
+2025-08-14 15:08:52,570 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:6.5.2
+2025-08-14 15:12:19,115 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:12:19,134 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:12:19,136 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:25:50,073 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:25:50,115 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:25:50,118 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:26:35,902 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:26:35,912 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:26:35,913 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:27:06,710 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:27:06,718 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:27:06,719 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:27:51,318 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:27:51,338 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:27:51,340 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:34:00,422 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:34:00,434 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:34:00,437 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:34:11,557 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:34:11,572 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:34:11,573 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:39:47,655 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:39:47,667 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:39:47,671 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:39:50,122 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:39:50,132 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:39:50,133 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:41:49,143 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:41:49,152 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:41:49,154 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:42:12,831 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:42:12,846 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:42:12,848 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:46:45,661 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:46:45,672 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:46:45,674 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:48:46,025 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:48:46,033 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:48:46,034 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:50:18,114 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:50:18,139 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:50:18,141 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 15:54:21,942 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@b7f65a0{STOPPING}[12.0.12,sto=0]
+2025-08-14 15:54:21,957 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@56042f80{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-08-14 15:55:21,910 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-14 15:57:24,242 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:57:24,257 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:57:24,260 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 15:59:01,491 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 15:59:01,499 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 15:59:01,501 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:03:51,017 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:03:51,025 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:03:51,027 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:05:18,490 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:05:18,520 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:05:18,527 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:10:26,119 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:10:26,128 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:10:26,130 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:11:09,727 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:11:09,741 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:11:09,743 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:11:40,542 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:11:40,563 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:11:40,566 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:15:45,857 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.4+7-LTS
+2025-08-14 16:15:45,887 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@24ca7e4b{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@724eb5b3{STARTED}}
+2025-08-14 16:15:45,888 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-08-14 16:15:45,899 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@31451000{HTTP/1.1, (http/1.1)}{127.0.0.1:63520}
+2025-08-14 16:15:45,916 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7f96b7{STARTING}[12.0.12,sto=0] @1230572ms
+2025-08-14 16:15:53,202 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:15:53,231 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:15:53,236 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:21:36,396 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:21:36,419 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:21:36,423 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:23:52,430 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:23:52,449 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:23:52,453 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 16:27:19,328 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:27:19,342 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:27:19,344 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:27:21,401 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:27:21,410 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:27:21,412 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 16:32:48,268 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:32:48,312 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:32:48,313 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:34:39,368 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:34:39,395 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:34:39,398 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:37:19,901 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:37:19,915 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:37:19,919 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:40:34,972 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:40:35,007 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:40:35,013 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:41:10,167 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:41:10,177 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:41:10,179 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:46:24,349 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:46:24,364 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:46:24,366 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:50:18,141 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:50:18,170 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:50:18,172 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:56:11,918 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:56:11,928 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:56:11,930 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:58:24,110 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:58:24,121 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:58:24,123 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:58:58,029 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:58:58,068 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:58:58,069 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:59:20,096 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:59:20,111 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:59:20,112 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 16:59:25,416 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 16:59:25,436 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 16:59:25,438 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:03:33,077 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:03:33,108 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:03:33,114 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:04:24,508 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:04:24,519 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:04:24,521 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:04:43,269 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:04:43,283 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:04:43,286 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:06:29,878 [Worker-62: Launching UserServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:06:29,894 [Worker-62: Launching UserServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:06:29,897 [Worker-62: Launching UserServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:07:25,632 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:07:25,643 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:07:25,646 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:09:22,761 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:user_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/pom.xml.
+2025-08-14 17:09:23,204 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:09:23,205 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:09:23,207 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:09:23,209 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of user_service
+2025-08-14 17:09:23,209 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for user_service
+2025-08-14 17:09:24,476 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:09:24,485 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:09:24,486 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:09:39,731 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:09:39,743 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:09:39,744 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:10:59,274 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:10:59,275 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:10:59,277 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:17:03,408 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:user_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/pom.xml.
+2025-08-14 17:17:03,849 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:17:03,849 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:17:03,853 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:17:03,853 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of user_service
+2025-08-14 17:17:03,853 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for user_service
+2025-08-14 17:17:05,040 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:17:05,056 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:17:05,058 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:17:07,126 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:17:07,132 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:17:07,134 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:17:49,005 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:17:49,014 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:17:49,016 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:18:13,466 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:18:13,474 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:18:13,475 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:18:32,765 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:18:32,802 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:18:32,806 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:21:09,878 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:21:09,887 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:21:09,889 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:27:44,089 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:27:44,103 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:27:44,104 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 17:34:58,895 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:34:58,911 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:34:58,913 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-14 17:48:53,899 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:48:53,915 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:48:53,921 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:48:59,649 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:48:59,660 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:48:59,661 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:50:51,600 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:50:51,688 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:50:51,690 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:56:05,801 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-14 17:56:05,815 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-14 17:56:05,816 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-14 17:56:06,305 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7f96b7{STOPPING}[12.0.12,sto=0]
+2025-08-14 17:56:06,309 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@31451000{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-08-15 12:42:12,311 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-15 12:46:29,709 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-15 12:47:04,417 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 12:47:04,429 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 12:47:04,431 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-15 12:47:04,933 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 12:47:04,939 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 12:47:04,942 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 12:47:05,262 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 12:47:05,269 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 12:47:05,270 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/eureka-server/src/test/resources
+2025-08-15 12:47:05,668 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 12:47:05,674 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 12:47:05,676 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 13:49:11,473 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 13:49:11,477 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 13:49:11,478 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 13:53:07,173 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 13:53:07,176 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 13:53:07,177 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 13:53:12,087 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 13:53:12,100 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 13:53:12,102 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 13:53:17,650 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 13:53:17,651 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 13:53:17,652 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:08:27,504 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:08:27,531 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:08:27,532 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:11:42,554 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:11:42,569 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:11:42,571 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:15:09,509 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:15:09,516 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:15:09,518 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:15:19,812 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:15:19,819 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:15:19,820 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:15:25,750 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:15:25,753 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:15:25,756 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:18:25,451 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:18:25,478 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:18:25,484 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:20:55,855 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:20:55,864 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:20:55,866 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-15 14:29:46,425 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:29:46,436 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:29:46,443 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:30:16,116 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:30:16,123 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:30:16,125 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:30:47,160 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:30:47,167 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:30:47,168 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:31:20,375 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:31:20,383 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:31:20,385 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:32:59,981 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:course_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/pom.xml.
+2025-08-15 14:33:00,408 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:33:00,408 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:33:00,410 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:33:00,412 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of course_service
+2025-08-15 14:33:00,412 [Worker-37: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for course_service
+2025-08-15 14:33:01,629 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 14:33:01,637 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:33:01,639 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:33:04,860 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:course_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/pom.xml.
+2025-08-15 14:33:05,081 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:33:05,081 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 14:33:05,083 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 14:33:05,083 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of course_service
+2025-08-15 14:33:05,083 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for course_service
+2025-08-15 15:02:13,336 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:02:13,352 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:02:13,353 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:02:33,494 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:02:33,498 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:02:33,499 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:03:12,246 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:03:12,250 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:03:12,251 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:03:15,438 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:03:15,445 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:03:15,446 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:04:04,894 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:04:04,900 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:04:04,901 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:07:43,948 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:07:43,955 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:07:43,957 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:08:04,637 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:08:04,650 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:08:04,652 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:08:42,223 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:08:42,230 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:08:42,231 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:08:43,301 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:08:43,307 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:08:43,308 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:09:55,349 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:09:55,364 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:09:55,366 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:12:18,212 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:12:18,219 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:12:18,220 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-15 15:14:40,138 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:14:40,148 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:14:40,149 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-15 15:22:32,299 [Worker-49: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-15 15:22:32,629 [Worker-49: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:classroom_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/pom.xml.
+2025-08-15 15:22:33,170 [Worker-49: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /classroom_service/src/main/java
+2025-08-15 15:22:33,170 [Worker-49: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /classroom_service/src/main/resources
+2025-08-15 15:22:33,173 [Worker-49: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /classroom_service/src/main/resources
+2025-08-15 15:22:33,177 [Worker-49: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /classroom_service/src/test/java
+2025-08-15 15:22:33,178 [Worker-49: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /classroom_service/src/test/resources
+2025-08-15 15:22:33,636 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:22:33,644 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:22:33,646 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:22:33,828 [Worker-49: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-15 15:22:33,995 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:22:33,995 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:22:33,996 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:23:10,909 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:23:10,928 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:23:10,929 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:23:47,475 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:23:47,484 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:23:47,487 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:24:12,162 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:24:12,173 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:24:12,175 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:25:11,804 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:25:11,811 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:25:11,816 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:25:44,527 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:25:44,534 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:25:44,536 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:26:13,716 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.12; built: 2024-07-25T21:58:37.668Z; git: cc6f1b74db755fed228b50701ad967aeaa68e83f; jvm 21.0.4+7-LTS
+2025-08-15 15:26:13,744 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@195b2fb{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@98f3b9c{STARTED}}
+2025-08-15 15:26:13,745 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-08-15 15:26:13,758 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@76d25513{HTTP/1.1, (http/1.1)}{127.0.0.1:49509}
+2025-08-15 15:26:13,775 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@6c731eaa{STARTING}[12.0.12,sto=0] @5880271ms
+2025-08-15 15:34:36,580 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:34:36,595 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:34:36,596 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:36:41,031 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:36:41,036 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:36:41,037 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:36:41,173 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:36:41,184 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:36:41,186 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:38:02,255 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:38:02,263 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:38:02,267 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:40:50,578 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:40:50,584 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:40:50,585 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:40:50,834 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:40:50,835 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:40:50,836 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:41:12,801 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:41:12,803 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:41:12,804 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:45:29,972 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:45:29,978 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:45:29,980 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-15 15:47:16,536 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:47:16,542 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:47:16,544 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-15 15:55:14,513 [Worker-69: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-15 15:55:14,761 [Worker-69: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:assessment_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/pom.xml.
+2025-08-15 15:55:15,125 [Worker-69: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /assessment_service/src/main/java
+2025-08-15 15:55:15,126 [Worker-69: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /assessment_service/src/main/resources
+2025-08-15 15:55:15,128 [Worker-69: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /assessment_service/src/main/resources
+2025-08-15 15:55:15,133 [Worker-69: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /assessment_service/src/test/java
+2025-08-15 15:55:15,133 [Worker-69: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /assessment_service/src/test/resources
+2025-08-15 15:55:15,801 [Worker-69: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-15 15:55:15,977 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:55:15,985 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:55:15,987 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-15 15:56:59,989 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:57:00,000 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:57:00,002 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-15 15:57:59,480 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:57:59,494 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:57:59,496 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-15 15:58:33,635 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:58:33,715 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:58:33,717 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-15 15:59:03,620 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:59:03,628 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:59:03,629 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-15 15:59:29,237 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-15 15:59:29,245 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-15 15:59:29,247 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-16 11:00:08,851 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 11:00:08,901 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 11:00:08,902 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-16 11:01:17,485 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 11:01:17,495 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 11:01:17,497 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-16 11:04:15,254 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 11:04:15,264 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 11:04:15,266 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-16 11:05:48,216 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 11:05:48,224 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 11:05:48,225 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-16 12:38:23,341 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:38:23,352 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:38:23,354 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:38:49,916 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:38:49,936 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:38:49,940 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:41:48,681 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:41:48,709 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:41:48,725 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:42:48,108 [Worker-108: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:course_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/pom.xml.
+2025-08-16 12:42:48,745 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:42:48,745 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:42:48,753 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:42:48,755 [Worker-108: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of course_service
+2025-08-16 12:42:48,755 [Worker-108: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for course_service
+2025-08-16 12:42:49,711 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:42:49,736 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:42:49,739 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:45:06,835 [Worker-110: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:user_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/pom.xml.
+2025-08-16 12:45:07,661 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:45:07,661 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:45:07,664 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 12:45:07,664 [Worker-110: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of user_service
+2025-08-16 12:45:07,664 [Worker-110: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for user_service
+2025-08-16 12:45:08,793 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:45:08,804 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:45:08,805 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 12:47:04,345 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:47:04,349 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:47:04,351 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:50:21,278 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:50:21,342 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:50:21,351 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:52:00,407 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:52:00,435 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:52:00,436 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 12:53:15,917 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:53:15,928 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:53:15,929 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 12:53:46,234 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:53:46,244 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:53:46,245 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 12:54:23,785 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:54:23,809 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:54:23,811 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 12:54:31,734 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 12:54:31,742 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 12:54:31,744 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 13:01:24,297 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:01:24,311 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:01:24,315 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 13:02:33,870 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:02:33,880 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:02:33,883 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 13:05:14,309 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:05:14,318 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:05:14,321 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 13:07:24,045 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:07:24,060 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:07:24,064 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 13:09:55,938 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:09:55,956 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:09:55,961 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 13:10:17,845 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:10:17,867 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:10:17,874 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-16 13:10:59,585 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:10:59,594 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:10:59,595 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 13:25:35,329 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:25:35,353 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:25:35,356 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-16 13:37:42,336 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 13:37:42,352 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 13:37:42,353 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 14:04:44,257 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:04:44,355 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:04:44,358 [Worker-167: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 14:08:19,571 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:08:19,578 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:08:19,581 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/user_service/src/test/resources
+2025-08-16 14:18:44,088 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:18:44,099 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:18:44,102 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:19:22,822 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:19:22,832 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:19:22,833 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:20:22,622 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:20:22,633 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:20:22,635 [Worker-172: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:21:23,644 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:21:23,653 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:21:23,654 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:21:59,916 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:21:59,924 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:21:59,926 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:23:25,930 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:23:25,941 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:23:25,943 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:23:26,081 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:23:26,091 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:23:26,092 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:23:42,540 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:23:42,556 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:23:42,557 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:23:43,606 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:23:43,619 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:23:43,623 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:23:46,131 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:23:46,142 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:23:46,143 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:24:40,568 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:24:40,572 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:24:40,573 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:25:07,065 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:25:07,073 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:25:07,077 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:25:07,214 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:25:07,225 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:25:07,226 [Worker-175: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:25:50,884 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:25:50,892 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:25:50,895 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:28:55,684 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:28:55,733 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:28:55,734 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:29:35,258 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:29:35,264 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:29:35,265 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:29:35,394 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:29:35,407 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:29:35,409 [Worker-174: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:29:50,679 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:29:50,694 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:29:50,695 [Worker-171: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:40:25,507 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:40:25,517 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:40:25,518 [Worker-179: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:40:34,478 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:40:34,493 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:40:34,495 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:56:20,267 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:56:20,290 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:56:20,292 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:57:12,988 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:57:13,004 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:57:13,007 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:57:45,599 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:57:45,642 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:57:45,647 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 14:58:16,571 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:58:16,588 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:58:16,591 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 14:59:44,939 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:59:44,970 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:59:44,974 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 14:59:58,425 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 14:59:58,430 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 14:59:58,432 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:13:16,640 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:13:16,661 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:13:16,667 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:15:22,294 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:15:22,389 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:15:22,390 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:16:13,991 [Worker-157: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:classroom_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/pom.xml.
+2025-08-16 16:16:14,580 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:16:14,580 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:16:14,582 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:16:14,583 [Worker-157: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of classroom_service
+2025-08-16 16:16:14,583 [Worker-157: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for classroom_service
+2025-08-16 16:16:15,736 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:16:15,787 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:16:15,791 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:16:16,915 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:16:16,929 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:16:16,930 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:18:38,051 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:18:38,067 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:18:38,069 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:19:02,395 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:19:02,408 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:19:02,409 [Worker-189: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:19:22,837 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:19:22,854 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:19:22,855 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:20:30,706 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:20:30,725 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:20:30,729 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-16 16:20:45,774 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:20:45,790 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:20:45,795 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/course_service/src/test/resources
+2025-08-16 16:22:09,716 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:22:09,729 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:22:09,736 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:23:57,624 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:23:57,636 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:23:57,640 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:24:00,265 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:24:00,275 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:24:00,276 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:24:13,359 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:24:13,374 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:24:13,376 [Worker-181: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:24:48,846 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:24:48,876 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:24:48,878 [Worker-188: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:31:13,809 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:31:13,825 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:31:13,829 [Worker-187: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:31:48,295 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:31:48,305 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:31:48,311 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:42:04,303 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:42:04,313 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:42:04,314 [Worker-197: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:42:28,497 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:42:28,511 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:42:28,513 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:42:49,938 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:42:49,948 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:42:49,950 [Worker-202: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:46:48,256 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:46:48,266 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:46:48,267 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:52:03,678 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:52:03,697 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:52:03,699 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:52:46,654 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:52:46,674 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:52:46,676 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:52:50,145 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:52:50,158 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:52:50,160 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:56:48,764 [Worker-208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:56:48,774 [Worker-208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:56:48,776 [Worker-208: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 16:56:59,168 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 16:56:59,185 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 16:56:59,186 [Worker-201: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:04:36,910 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:04:36,934 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:04:36,935 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:04:45,210 [Worker-213: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:04:45,223 [Worker-213: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:04:45,224 [Worker-213: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:06:24,188 [Worker-214: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:06:24,207 [Worker-214: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:06:24,208 [Worker-214: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:08:12,105 [Worker-216: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:08:12,116 [Worker-216: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:08:12,117 [Worker-216: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:09:57,095 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:09:57,119 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:09:57,124 [Worker-207: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:19:41,206 [Worker-226: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:19:41,361 [Worker-226: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:19:41,366 [Worker-226: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:23:12,567 [Worker-223: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:23:12,587 [Worker-223: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:23:12,590 [Worker-223: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:24:13,019 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:24:13,120 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:24:13,123 [Worker-227: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 17:26:50,114 [Worker-234: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-16 17:26:50,158 [Worker-234: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-16 17:26:50,159 [Worker-234: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-16 22:55:01,564 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6c731eaa{STOPPING}[12.0.12,sto=0]
+2025-08-16 22:55:01,574 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@76d25513{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-08-17 08:48:52,948 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-17 08:49:45,810 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:49:45,823 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:49:45,826 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-17 08:52:41,069 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:52:41,073 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:52:41,075 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-17 08:52:43,178 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:52:43,179 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:52:43,181 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-17 08:58:15,445 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:assessment_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/pom.xml.
+2025-08-17 08:58:15,774 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:58:15,780 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:58:15,782 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 08:58:15,783 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of assessment_service
+2025-08-17 08:58:15,783 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for assessment_service
+2025-08-17 08:58:16,953 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:58:16,958 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:58:16,959 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 08:58:22,195 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:58:22,197 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:58:22,198 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 08:59:29,560 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:59:29,561 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:59:29,562 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 08:59:56,224 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 08:59:56,227 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 08:59:56,228 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:00:20,734 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:00:20,735 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:00:20,736 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:00:45,893 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:00:45,898 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:00:45,899 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:01:12,010 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:01:12,011 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:01:12,012 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:01:12,202 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:01:12,204 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:01:12,205 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:02:17,757 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:02:17,760 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:02:17,762 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:02:34,703 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:02:34,705 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:02:34,706 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:03:02,415 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:03:02,417 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:03:02,421 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:03:33,168 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:03:33,171 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:03:33,173 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:03:33,325 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:03:33,330 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:03:33,331 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:08:49,822 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:08:49,831 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:08:49,832 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:09:42,058 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:09:42,063 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:09:42,064 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:09:45,281 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:09:45,285 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:09:45,286 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:10:42,727 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:10:42,729 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:10:42,730 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:11:27,059 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:11:27,061 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:11:27,062 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:12:07,585 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:12:07,588 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:12:07,590 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:13:47,474 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:13:47,490 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:13:47,494 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-17 09:34:21,820 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:classroom_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/pom.xml.
+2025-08-17 09:34:22,265 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:34:22,265 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:34:22,267 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-17 09:34:22,267 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of classroom_service
+2025-08-17 09:34:22,267 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for classroom_service
+2025-08-17 09:34:22,632 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 09:34:22,641 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:34:22,642 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/classroom_service/src/test/resources
+2025-08-17 09:34:41,475 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:assessment_service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/pom.xml.
+2025-08-17 09:34:41,724 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:34:41,725 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 09:34:41,726 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/assessment_service/src/test/resources
+2025-08-17 09:34:41,727 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of assessment_service
+2025-08-17 09:34:41,727 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for assessment_service
+2025-08-17 21:54:02,495 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-17 21:59:36,110 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-17 21:59:36,449 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:notfication-service:0.0.1-SNAPSHOT @ /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/pom.xml.
+2025-08-17 21:59:37,069 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notfication-service/src/main/java
+2025-08-17 21:59:37,071 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notfication-service/src/main/resources
+2025-08-17 21:59:37,075 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notfication-service/src/main/resources
+2025-08-17 21:59:37,086 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notfication-service/src/test/java
+2025-08-17 21:59:37,086 [Worker-18: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notfication-service/src/test/resources
+2025-08-17 21:59:37,752 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 21:59:37,762 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 21:59:37,765 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 21:59:38,094 [Worker-18: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 1.00 sec 
+2025-08-17 21:59:38,306 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 21:59:38,307 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 21:59:38,310 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:00:05,417 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:00:05,420 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:00:05,422 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:00:32,604 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:00:32,632 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:00:32,635 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:00:57,654 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:00:57,656 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:00:57,658 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:01:22,226 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:01:22,229 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:01:22,231 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:02:38,218 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:02:38,241 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:02:38,244 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:03:50,496 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:03:50,504 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:03:50,506 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:04:02,459 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:04:02,480 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:04:02,481 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:04:26,736 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:04:26,738 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:04:26,741 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:05:12,366 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:05:12,383 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:05:12,385 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:05:18,305 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:05:18,313 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:05:18,315 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:05:41,094 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:05:41,098 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:05:41,099 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:06:09,617 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:06:09,619 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:06:09,620 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:07:31,339 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:07:31,347 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:07:31,349 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/notfication-service/src/test/resources
+2025-08-17 22:09:01,123 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-17 22:09:01,130 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-17 22:09:01,132 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/bhargavchowdaryyadagani/Practice_Scenarios/api-gateway/src/test/resources
+2025-08-18 08:48:22,430 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

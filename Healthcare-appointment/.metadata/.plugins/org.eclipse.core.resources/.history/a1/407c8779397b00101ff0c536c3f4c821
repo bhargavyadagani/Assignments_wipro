@@ -1,0 +1,7 @@
+spring.application.name=billing-service
+
+server.port=1005
+
+server.port=4545
+spring.data.mongodb.uri=mongodb://localhost:27017/
+spring.data.mongodb.database=wipro

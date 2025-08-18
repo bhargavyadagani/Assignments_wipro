@@ -1,0 +1,15 @@
+package com.example.classroom_service.feign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.example.classroom_service.dto.CourseDto;
+
+@FeignClient(name="course-service", url="http://localhost:2002")
+public interface CourseClient {
+	
+	@GetMapping("/courses/{id}")
+    CourseDto getCourseById(@PathVariable Long id);
+	
+}

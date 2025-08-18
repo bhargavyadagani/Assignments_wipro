@@ -1,0 +1,81 @@
+package com.example.classroom_service.service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.classroom_service.dto.ClassroomDto;
+import com.example.classroom_service.dto.CourseDto;
+import com.example.classroom_service.dto.StudentAttendenceDto;
+import com.example.classroom_service.dto.UserDto;
+import com.example.classroom_service.feign.CourseClient;
+import com.example.classroom_service.feign.UserClient;
+import com.example.classroom_service.model.Attendance;
+import com.example.classroom_service.model.Classroom;
+import com.example.classroom_service.repository.AttendenceRepository;
+import com.example.classroom_service.repository.ClassroomRepository;
+
+
+
+@Service
+public class ClassroomService {
+
+    @Autowired
+    private ClassroomRepository classroomRepository;
+    
+    @Autowired
+    private AttendenceRepository attendanceRepository;
+    
+    @Autowired
+    private UserClient userClient;
+    
+    @Autowired
+    private CourseClient courseClient;
+
+    public Classroom createClassroom(Classroom classroom) {
+    	classroom.setStartTime(LocalDateTime.now());
+        return classroomRepository.save(classroom);
+    }
+
+    public Classroom getClassroomById(Long id) {
+        return classroomRepository.findById(id).orElse(null);
+    }
+
+    public Attendance markAttendance(Long classId, Long studentId, boolean present) {
+        Attendance attendance = new Attendance();
+        attendance.setClassroomId(classId);
+        attendance.setStudentId(studentId);
+        attendance.setPresent(present);
+        return attendanceRepository.save(attendance);
+    }
+
+    public List<Attendance> getAttendanceForClass(Long classId) {
+        return attendanceRepository.findByClassroomId(classId);
+    }
+    
+    public ClassroomDto getClassroomDetails(Long classroomId) {
+        // Get classroom
+        Classroom classroom = classroomRepository.findById(classroomId)
+                .orElseThrow(() -> new RuntimeException("Classroom not found"));
+
+        // Get attendance list
+        List<Attendance> attendanceList = attendanceRepository.findByClassroomId(classroomId);
+
+        // Map each attendance to StudentAttendanceDTO
+        List<StudentAttendenceDto> students = attendanceList.stream()
+                .map(a -> new StudentAttendenceDto(
+                        userClient.getById(a.getStudentId()),
+                        a.isPresent()
+                ))
+                .collect(Collectors.toList());
+
+        // Build DTO
+        return new ClassroomDto(
+                classroom.getId(),classroom.getClassTitle(),classroom.getStartTime(),classroom.getCouseId()
+                
+        );
+    }
+}

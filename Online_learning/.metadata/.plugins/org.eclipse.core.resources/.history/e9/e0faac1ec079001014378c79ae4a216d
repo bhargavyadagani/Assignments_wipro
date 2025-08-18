@@ -1,0 +1,33 @@
+package com.example.classroom_service.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.classroom_service.model.ClassRoom;
+import com.example.classroom_service.repository.ClassRoomRepository;
+
+@Service
+public class ClassRoomService {
+
+    @Autowired
+    private ClassRoomRepository classroomRepository;
+
+    public ClassRoom createClassroom(ClassRoom classroom) {
+        return classroomRepository.save(classroom);
+    }
+
+    public List<ClassRoom> getAllClassrooms() {
+        return classroomRepository.findAll();
+    }
+
+    public ClassRoom getClassroomById(Long id) {
+        return classroomRepository.findById(id).orElse(null);
+    }
+
+
+    public void deleteClassroom(Long id) {
+        classroomRepository.deleteById(id);
+    }
+}

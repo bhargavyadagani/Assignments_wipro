@@ -1,0 +1,50 @@
+package com.example.medical_record_service.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.medical_record_service.model.MedicalRecord;
+import com.example.medical_record_service.service.MedicalRecordService;
+
+@RestController
+@RequestMapping("/medical-records")
+public class MedicalRecordController {
+
+    @Autowired
+    private MedicalRecordService service;
+
+    @PostMapping("/create")
+    public MedicalRecord createRecord(@RequestBody MedicalRecord record) {
+        return service.createRecord(record);
+    }
+
+    @GetMapping("/{id}")
+    public Optional<MedicalRecord> getRecord(@PathVariable Long id) {
+        return service.getRecord(id);
+    }
+
+    @GetMapping("/patient/{patientId}")
+    public List<MedicalRecord> getRecordsByPatient(@PathVariable Long patientId) {
+        return service.getRecordsByPatient(patientId);
+    }
+
+    @PutMapping("/update/{id}")
+    public MedicalRecord updateRecord(@PathVariable Long id, @RequestBody MedicalRecord record) throws Exception {
+        return service.updateRecord(id, record);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public void deleteRecord(@PathVariable Long id) {
+        service.deleteRecord(id);
+    }
+}

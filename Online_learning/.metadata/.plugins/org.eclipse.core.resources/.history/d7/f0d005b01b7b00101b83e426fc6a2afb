@@ -1,0 +1,19 @@
+package com.example.assessment_service.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.assessment_service.model.Assessment;
+import com.example.assessment_service.repository.AssessmentRepository;
+
+@Service
+public class AssessmentService {
+	
+	@Autowired
+	private AssessmentRepository assessmentRepository;
+	
+	public Assessment addAss(Assessment ass)
+	{
+		return assessmentRepository.save(ass);
+	}
+}

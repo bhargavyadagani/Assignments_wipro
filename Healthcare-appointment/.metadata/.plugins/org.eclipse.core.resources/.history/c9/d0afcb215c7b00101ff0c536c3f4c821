@@ -1,0 +1,26 @@
+package com.example.billing_service.model;
+
+import java.time.LocalDateTime;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Document
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Billing {
+    @Id
+    private String id;
+
+    private Long patientId;
+    private Long appointmentId;
+
+    private Double amount;
+    private String status; 
+    private LocalDateTime createdAt;
+}

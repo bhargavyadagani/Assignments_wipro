@@ -1,0 +1,63 @@
+package com.example.doctor_service.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.doctor_service.model.Doctor;
+import com.example.doctor_service.repository.DoctorRepository;
+
+@Service
+public class DoctorService {
+
+    @Autowired
+    private DoctorRepository repository;
+
+    public Doctor createDoctor(Doctor doctor) {
+        return repository.save(doctor);
+    }
+
+    public Optional<Doctor> getDoctor(Long id) {
+        return repository.findById(id);
+    }
+
+    public List<Doctor> getAllDoctors() {
+        return repository.findAll();
+    }
+
+    public Doctor updateDoctor(Long id, Doctor updated) throws Exception {
+        Doctor doctor = repository.findById(id).orElseThrow(() -> new Exception("Doctor not found"));
+        doctor.setName(updated.getName());
+        doctor.setSpecialization(updated.getSpecialization());
+        doctor.setEmail(updated.getEmail());
+        doctor.setPhone(updated.getPhone());
+        return repository.save(doctor);
+    }
+
+    public void deleteDoctor(Long id) {
+        repository.deleteById(id);
+    }
+
+    
+    public Doctor blockSlot(Long doctorId) {
+        Optional<Doctor> doctorOpt = repository.findById(doctorId);
+        if (doctorOpt.isPresent() && doctorOpt.get().isAvailable()) {
+            Doctor doctor = doctorOpt.get();
+            doctor.setAvailable(false);
+            return repository.save(doctor);  // return updated doctor
+        }
+        throw new RuntimeException("Doctor not available or not found");
+    }
+
+    public Doctor releaseSlot(Long doctorId) {
+        return repository.findById(doctorId)
+                .map(doc -> {
+                    doc.setAvailable(true);
+                    return repository.save(doc); // return updated doctor
+                })
+                .orElseThrow(() -> new RuntimeException("Doctor not found"));
+    }
+
+}

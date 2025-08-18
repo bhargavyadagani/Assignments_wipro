@@ -1,0 +1,8 @@
+package com.example.appointment_service.feign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "doctor-service", url = "http://localhost:1002")
+public class DoctorClient {
+
+}

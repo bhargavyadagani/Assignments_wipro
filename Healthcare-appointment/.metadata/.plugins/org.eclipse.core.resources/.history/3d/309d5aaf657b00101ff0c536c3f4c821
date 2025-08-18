@@ -1,0 +1,13 @@
+package com.example.billing_service.dto;
+
+import lombok.Data;
+
+@Data
+public class MedicalRecordDto {
+	
+	 private Long id;
+	    private Long patientId;
+	    private Long appointmentId;
+	    private String diagnosis;
+	    private String prescription;
+}

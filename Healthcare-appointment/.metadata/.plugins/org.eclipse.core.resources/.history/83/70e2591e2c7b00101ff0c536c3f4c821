@@ -1,0 +1,7 @@
+package com.example.medical_record_service.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MedicalrecordRepository extends JpaRepository<T, ID> {
+
+}

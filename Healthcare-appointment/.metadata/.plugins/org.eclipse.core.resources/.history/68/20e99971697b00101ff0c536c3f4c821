@@ -1,0 +1,17 @@
+package com.example.medical_record_service.dto;
+
+import java.util.List;
+
+import com.example.medical_record_service.model.MedicalRecord;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class PatientMedicalRecordsDto {
+    private PatientDto patient;
+    private MedicalRecord medicalRecords;
+}
