@@ -1,0 +1,23 @@
+<h2>Add Route</h2>
+<form>
+  <label>Source</label>
+  <input type="text" [(ngModel)]="route.source" name="source" placeholder="Enter source"><br>
+
+  <label>Destination</label>
+  <input type="text" [(ngModel)]="route.destination" name="destination" placeholder="Enter destination"><br>
+
+  <label>Distance (km)</label>
+  <input type="number" [(ngModel)]="route.distance" name="distance" placeholder="Enter distance"><br>
+
+  <label>Estimated Time (hours)</label>
+  <input type="text" [(ngModel)]="route.estimatedTime" name="estimatedTime" placeholder="Enter Estimated time"><br><br>
+
+  <button type="button" (click)="onSubmit()">Add</button>
+  <input type="reset" value="Reset">
+</form>
+
+<p>{{ message }}</p>
+
+<a [routerLink]="['/routes']">Back to Route List</a> | 
+<a [routerLink]="['/']">Back To Main Menu</a>
+

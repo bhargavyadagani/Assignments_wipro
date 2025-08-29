@@ -1,0 +1,97 @@
+
+/* Heading */
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+}
+
+/* Route Header */
+.route-header {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 120px 150px 160px;
+  background: #2c3e50;
+  color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+}
+
+/* Route Row */
+.route-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 120px 150px 160px;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e6e9ef;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.route-row:nth-child(even) {
+  background: #f9fbfd;
+}
+
+.route-row:hover {
+  background: #eaf4ff;
+}
+
+/* Buttons */
+button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 6px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+/* Edit Button */
+button:first-child {
+  background: #0984e3;
+  color: #fff;
+}
+
+button:first-child:hover {
+  background: #0761a8;
+  transform: translateY(-1px);
+}
+
+/* Delete Button */
+button:last-child {
+  background: #d63031;
+  color: #fff;
+}
+
+button:last-child:hover {
+  background: #a71d1d;
+  transform: translateY(-1px);
+}
+
+/* Message */
+div[style="color:red"] {
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #0984e3;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0652a0;
+  text-decoration: underline;
+}

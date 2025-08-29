@@ -1,0 +1,28 @@
+<h2>Add Vehicle</h2>
+<form>
+  <label>Vehicle Number</label>
+  <input type="text" name="vehicleNumber" [(ngModel)]="vehicle.vehicleNumber" placeholder="Enter vehicle number"><br>
+
+  <label>Type</label>
+  <input type="text" name="type" [(ngModel)]="vehicle.type" placeholder="Enter type (CAR/BUS/etc)"><br>
+
+  <label>Capacity</label>
+  <input type="number" name="capacity" [(ngModel)]="vehicle.capacity" placeholder="Enter capacity"><br>
+
+  <label>Status</label>
+  <select name="status" [(ngModel)]="vehicle.status">
+    <option value="AVAILABLE">AVAILABLE</option>
+    <option value="ON_TRIP">ON_TRIP</option>
+    <option value="MAINTENANCE">MAINTENANCE</option>
+  </select><br><br>
+
+  <button type="button" (click)="onSubmit()">Add</button>
+  <input type="reset" value="Reset">
+</form>
+
+<p>{{ message }}</p>
+
+<br/>
+<a [routerLink]="['/vehicles']">Back to Vehicle List</a> |
+<a [routerLink]="['/']">Back To Main Menu</a>
+

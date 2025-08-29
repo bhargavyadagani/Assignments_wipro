@@ -1,0 +1,31 @@
+<h2>All Routes</h2>
+
+<div *ngIf="message" style="color:red">{{ message }}</div>
+<div *ngIf="isLoading">Loading routes...</div>
+
+<div *ngIf="routes.length > 0">
+  <div class="route-header">
+    <strong>ID</strong>
+    <strong>Source</strong>
+    <strong>Destination</strong>
+    <strong>Distance</strong>
+    <strong>Estimated Time</strong>
+    <strong>Actions</strong>
+  </div>
+
+  <div *ngFor="let r of routes" class="route-row">
+    <div>{{ r.routeId }}</div>
+    <div>{{ r.source }}</div>
+    <div>{{ r.destination }}</div>
+    <div>{{ r.distance }}</div>
+    <div>{{ r.estimatedTime || 'N/A' }}</div>
+    <div>
+      <button (click)="editRoute(r.routeId)">Edit</button>
+      <button (click)="deleteRoute(r.routeId)">Delete</button>
+    </div>
+  </div>
+</div>
+
+<br />
+<a [routerLink]="['/add-route']">Add Route</a> <br>
+<a [routerLink]="['/']">Back To Main Menu</a>

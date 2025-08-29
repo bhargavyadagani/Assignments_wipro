@@ -1,0 +1,38 @@
+<h2>All Bookings</h2>
+
+<div *ngIf="message" style="color:red">{{ message }}</div>
+<div *ngIf="isLoading">Loading bookings...</div>
+
+<table *ngIf="bookings.length > 0" class="booking-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Customer Name</th>
+      <th>Contact</th>
+      <th>Vehicle ID</th>
+      <th>Driver ID</th>
+      <th>Route ID</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let b of bookings">
+      <td>{{ b.bookingId }}</td>
+      <td>{{ b.customerName }}</td>
+      <td>{{ b.contactNumber }}</td>
+      <td>{{ b.vehicleId }}</td>
+      <td>{{ b.driverId }}</td>
+      <td>{{ b.routeId }}</td>
+      <td>{{ b.bookingStatus }}</td>
+      <td>
+        <button (click)="editBooking(b.bookingId)">Edit</button>
+        <button (click)="deleteBooking(b.bookingId)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<a [routerLink]="['/add-booking']">Add Booking</a> |
+<a [routerLink]="['/']">Back To Main Menu</a>

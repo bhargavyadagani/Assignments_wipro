@@ -1,0 +1,57 @@
+<h2 class="mb-4">All Vehicles</h2>
+
+<div *ngIf="errorMessage" class="alert alert-danger">
+  {{ errorMessage }}
+</div>
+
+<div *ngIf="isLoading" class="alert alert-info">
+  Loading vehicles...
+</div>
+
+<div *ngIf="vehicles.length > 0">
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover table-striped align-middle text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>ID</th>
+          <th>Vehicle Number</th>
+          <th>Type</th>
+          <th>Capacity</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let v of vehicles">
+          <td>{{ v.vehicleId }}</td>
+          <td>{{ v.vehicleNumber }}</td>
+          <td>{{ v.type }}</td>
+          <td>{{ v.capacity }}</td>
+          <td>
+            <span class="badge"
+                  [ngClass]="{
+                    'bg-success': v.status === 'AVAILABLE',
+                    'bg-warning': v.status === 'ON_TRIP',
+                    'bg-secondary': v.status === 'MAINTENANCE'
+                  }">
+              {{ formatStatus(v.status) }}
+            </span>
+          </td>
+          <td>
+            <button class="btn btn-sm btn-primary me-2" (click)="editVehicle(v.vehicleId)">
+              Edit
+            </button>
+            <button class="btn btn-sm btn-danger" (click)="deleteVehicle(v.vehicleId)">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="mt-4">
+  <a routerLink="/add-vehicle" class="btn btn-success me-2">Add Vehicle</a>
+  <a routerLink="/" class="btn btn-secondary">Back To Main Menu</a>
+</div>

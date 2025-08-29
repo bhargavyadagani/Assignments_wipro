@@ -1,0 +1,29 @@
+<h1>Add Driver</h1>
+<form>
+  <label>Enter Driver Name</label>
+  <input type="text" name="name" [(ngModel)]="driver.name"><br>
+
+  <label>Enter License Number</label>
+  <input type="text" name="licenseNumber" [(ngModel)]="driver.licenseNumber"><br>
+
+  <label>Enter Phone Number</label>
+  <input type="text" name="phoneNumber" [(ngModel)]="driver.phoneNumber"><br>
+
+  <label>Status</label>
+  <select name="status" [(ngModel)]="driver.status">
+   <option value="ACTIVE">ACTIVE</option>
+    <option value="INACTIVE">INACTIVE</option>
+    <option value="SUSPENDED">SUSPENDED</option>
+    <option value="OFF_DUTY">OFF_DUTY</option>
+  </select><br><br>
+
+  <button type="button" (click)="onSubmit()">Add</button>
+  <input type="reset" value="Reset">
+</form>
+
+<p>{{ message }}</p>
+
+<br/>
+<a [routerLink]="['/drivers']">Back to Driver List</a> |
+<a [routerLink]="['/']">Back To Main Menu</a>
+

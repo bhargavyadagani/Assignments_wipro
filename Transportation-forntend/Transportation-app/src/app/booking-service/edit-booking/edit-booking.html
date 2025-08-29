@@ -1,0 +1,32 @@
+<h2>Edit Booking</h2>
+<form>
+  <label>Customer Name</label>
+  <input type="text" [(ngModel)]="booking.customerName" name="customerName"><br>
+
+  <label>Contact Number</label>
+  <input type="text" [(ngModel)]="booking.contactNumber" name="contactNumber"><br>
+
+  <label>Vehicle ID</label>
+  <input type="number" [(ngModel)]="booking.vehicleId" name="vehicleId"><br>
+
+  <label>Driver ID</label>
+  <input type="number" [(ngModel)]="booking.driverId" name="driverId"><br>
+
+  <label>Route ID</label>
+  <input type="number" [(ngModel)]="booking.routeId" name="routeId"><br>
+
+  <label>Status</label>
+  <select [(ngModel)]="booking.bookingStatus" name="bookingStatus">
+    <option value="PENDING">PENDING</option>
+    <option value="CONFIRMED">CONFIRMED</option>
+    <option value="COMPLETED">COMPLETED</option>
+    <option value="CANCELLED">CANCELLED</option>
+  </select><br><br>
+
+  <button type="button" (click)="onSubmit()">Update Booking</button>
+</form>
+
+<br/>
+<a [routerLink]="['/bookings']">Back to Booking List</a> |
+<a [routerLink]="['/']">Back To Main Menu</a>
+

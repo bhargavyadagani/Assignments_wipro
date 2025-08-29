@@ -1,0 +1,49 @@
+<h2>All Drivers</h2>
+
+<div *ngIf="errorMessage" class="error">
+  {{ errorMessage }}
+</div>
+
+<div>
+  <strong>Total drivers: {{ drivers.length }}</strong>
+</div>
+
+<div *ngIf="!drivers.length && !errorMessage && isLoading">
+  Loading drivers...
+</div>
+
+<table *ngIf="drivers.length > 0" class="driver-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>License Number</th>
+      <th>Phone Number</th>
+      <th>Status</th>
+      <th>Created At</th>
+      <th>Updated At</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let d of drivers">
+      <td>{{ d.driverId }}</td>
+      <td>{{ d.name }}</td>
+      <td>{{ d.licenseNumber }}</td>
+      <td>{{ d.phoneNumber }}</td>
+      <td>{{ d.status }}</td>
+      <td>{{ d.createdAt | date:'short' }}</td>
+      <td>{{ d.updatedAt | date:'short' }}</td>
+      <td>
+        <button class="edit-btn" (click)="editDriver(d.driverId)">Edit</button>
+        <button class="delete-btn" (click)="deleteDriver(d.driverId)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+
+<a href="/add-driver" class="link-btn add">Add Driver</a> |
+<a href="/" class="link-btn back">Back To Main Menu</a>

@@ -1,0 +1,41 @@
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.booking-table th,
+.booking-table td {
+  border: 2px solid #007bff; /* thick blue borders */
+  padding: 10px;
+  text-align: center;
+}
+
+.booking-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.booking-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.booking-table tr:hover {
+  background-color: #e0f7fa;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #007bff;
+  color: white;
+  background-color: #007bff;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
